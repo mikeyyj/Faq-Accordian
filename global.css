@@ -1,0 +1,73 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 100vh; /* Set height to 100% of viewport height */
+  background-image: url("./assets/background.svg");
+  background-size: 100%; /* Cover the entire width and half of the height */
+  background-position: top left; /* Position the background at the top */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  /* Other CSS styles */
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.centered-div {
+  display: flex;
+  flex-direction: column;
+  width: 500px; /* Set the width of the centered div to 500 pixels */
+  height: 500px; /* Set the height of the centered div to 500 pixels */
+  background-color: white; /* Example background color */
+  text-align: left;
+  border: black;
+  border-style: dashed;
+  padding: 20px;
+  border-radius: 20px;
+  /* Add other styling as needed */
+}
+
+h1 {
+  margin: 20px;
+  color: hsl(292, 42%, 14%);
+  font-weight: 900;
+  font-size: 40px;
+  margin: 10px;
+}
+.star {
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+}
+p {
+  font-size: 16px;
+}
+.faqTitle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.question {
+  display: flex;
+  
+  width: 100%;
+  cursor: pointer;
+  margin: 20px;
+  color: hsl(292, 42%, 14%);
+  font-size: 16px;
+  font-weight: 600;
+}
+.answer {
+  display: none;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(292, 16%, 49%);
+}
