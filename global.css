@@ -26,6 +26,7 @@ body {
   background-color: white; /* Example background color */
   border-radius: 20px;
   /* Add other styling as needed */
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); /*  Adds a drop shadow */
 }
 
 
