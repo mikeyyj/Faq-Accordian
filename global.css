@@ -22,35 +22,30 @@ body {
   flex-direction: column;
 
   width: 500px; /* Set the width of the centered div to 500 pixels */
-  /* Set the height of the centered div to 500 pixels */
+
   background-color: white; /* Example background color */
-  text-align: left;
   border-radius: 20px;
   /* Add other styling as needed */
 }
 
-h1 {
-  color: hsl(292, 42%, 14%);
+
+.titleFaq {
   font-weight: 900;
   font-size: 40px;
-  margin: 0;
+  margin:0px;
+  
 }
 .star {
-  height: auto;
-  width: auto;
+  height: 40px;
+  width: 40px;
 }
-p {
-  font-size: 16px;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 600;
-  color:hsl(292, 16%, 49%)
-}
+
 .faqTitle {
   display: flex;
-  align-items: center;
-  justify-content: space-start;
+  align-items:center;
   gap: 10px;
   margin: 15px;
+  
 }
 .question {
   display: flex;
@@ -58,24 +53,27 @@ p {
   cursor: pointer;
   color: hsl(292, 42%, 14%);
   font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 5px;
 }
-.questionTitle{
+.questionTitle {
   color: hsl(292, 42%, 14%);
-
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
 }
 .answer {
   display: none;
   border-bottom: 1px solid #ddd;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 5px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight:300;
   color: hsl(292, 16%, 49%);
+  font-family: "Work Sans", sans-serif;
 }
 .question:hover {
   color: hsl(292, 16%, 49%); /* Light pink color */
